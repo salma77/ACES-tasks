@@ -90,10 +90,17 @@ font-size: 20px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    -ms-flex-align: center;
 }
 .btn:hover {
     background-color: black;
     color: white;
+}
+.btn-div{
+    padding-bottom: 0px;
+    padding-top: 5%;
+    padding-left: 80%; 
+    height: 145px;
 }
 .dark-mode {
     background-color: black;
