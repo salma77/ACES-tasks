@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./task.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+
+<body class="body">
+    <!--------------------First half of the page---------------->
+    <!-------------------------Nav Bar------------------------>
+    <header>
+        <ul class="ul">
+            <li class="navitem">
+                <a>
+                    <img src="./aces.png" width="120" height="100">
+                </a>
+            </li>
+            <li class="navitem"><a class="nav-a" href="#home">Home</a></li>
+            <li class="navitem"><a class="nav-a" href="#about">About</a></li>
+            <li class="navitem"><a class="nav-a" href="#blog">Blog</a></li>
+            <li class="navitem"><a class="nav-a" href="#contactus">contact us</a></li>
+            <li class="navitem" style="float:right"><a class="nav-a" href="#signup">Signup</a></li>
+        </ul>
+
+    </header>
+        
+    <div>
+        <!------------------Image---------------->
+        <img src="">
+        <p class="banner">Put an image here</p>
+        <!------------Dark Mode Button-------------->
+        <button class="btn" onclick="toggleDark()">Switch to dark mode</button>
+        <script>
+            function toggleDark() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+    </div>
+    <!-----------Horizontal line in the middle of the page----------------->
+    <hr class="hr">
+    <div>
+        <!-----------------Flex box for the 3 projects---------------->
+
+        <p class="mywork"> MY Work</p>
+        <div class="flex-container">
+            <div class="holder"> <br> 1</div>
+            <div class="holder"> <br> 2</div>
+            <div class="holder" style="background-color: rgb(18, 0, 0);"> <br> 3</div>  
+        </div>
+        <!---Empty Container for spacing--->
+        <div style="padding-bottom: 0px; height: 145px;">
+        </div>
+    </div>
+
+</body>
+</html>
